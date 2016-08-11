@@ -1,0 +1,32 @@
+{
+    "name": "andremyid/page",
+    "description": "The Andremyid Page package.",
+    "keywords": ["andremyid", "framework", "page"],
+    "homepage": "http://www.andre.my.id",
+    "type": "library",
+    "license": "Project",
+    "authors": [
+        {
+            "name": "Andre Myid",
+            "email": "android@andre.my.id",
+            "homepage": "http://www.andre.my.id",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "andremyid/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Andremyid\\Page": ""
+        }
+    },
+    "target-dir": "Andremyid/Page",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
